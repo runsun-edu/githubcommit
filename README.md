@@ -7,6 +7,24 @@ environment variables that must be exported. Currently this extension supports
 commits to a single github repo defined in environment variable but in the long
 run need help to modify this extension allowing user to select his repo and branch.
 
+# files
+
+'''
+- githubcommit/	-- 	
+  |- __pycache__	
+  |- static/		
+  |  |- main.js -- make commit file selectable by checkbox
+  |- .DS_Store	
+  |- __init__.py	
+  |- handlers.py -- Handle commit/push when the commit button is clicked.
+- screens/	
+- LICENSE	
+- README.md	
+- config --	Github remove strict key checking
+- env.sh -- Repo settings for githubcommit for Jupyter. Don't override exsisting ssh key pair	
+- setup.py --	For setting up githubcommit, make it available to python 
+'''
+
 ## Installation
 
 You can currently install this directly from git:
