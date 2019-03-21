@@ -9,7 +9,7 @@ run need help to modify this extension allowing user to select his repo and bran
 
 # files
 
-'''
+```
 - githubcommit/	-- 	
   |- __pycache__	
   |- static/		
@@ -23,7 +23,7 @@ run need help to modify this extension allowing user to select his repo and bran
 - config --	Github remove strict key checking
 - env.sh -- Repo settings for githubcommit for Jupyter. Don't override exsisting ssh key pair	
 - setup.py --	For setting up githubcommit, make it available to python 
-'''
+```
 
 ## Installation
 
